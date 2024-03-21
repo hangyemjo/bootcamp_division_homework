@@ -5,7 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    ahp=input()
+    if ahp in ['a', 'e', 'i', 'o', 'u']:
+        print("O")
+    else:
+        print("X")
     return
 
 
